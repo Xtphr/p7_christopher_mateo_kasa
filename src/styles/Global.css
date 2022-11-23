@@ -1,3 +1,133 @@
 /***************************************************************
  ****              Feuille de style global Kasa             ****
  **************************************************************/
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    color: #FFF;
+}
+
+/* Header */
+nav{
+    margin: 2% 0 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+    padding-left: 100px;
+}
+
+li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #FF6060;
+    cursor: pointer;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.header__logo{
+    width: 200px;
+    height: 70px;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__text{
+    font-size: 30px;
+    margin: 30px 0;
+    color: #FFF;
+}
+
+/* Page d'erreur */
+.error{
+    margin: 100px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.error p{
+    width: 95%;
+    margin: 50px 0;
+    font-size: 36px;
+}
+
+.error__home{
+    font-size: 18px;
+    margin: 100px 0;
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.error__home:hover{
+    text-decoration: underline;
+}
+
+.error img{
+    width: 95%;
+}
+
+/* Responsive design */
+@media all and (max-width: 768px){
+    .header__logo{
+        width: 145px;
+        height: 47px;
+    }
+
+    li a{
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    nav{
+        margin-top: 4%;
+    }
+
+    nav li{
+        padding: 0 10px;
+    }
+
+    .footer__text{
+        font-size: 14px;
+    }
+
+    .error img{
+        width: 198px;
+        height: 99px;
+    }
+
+    .error p{
+        font-size: 18px;
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .error__home{
+        font-size: 14px;
+        text-decoration: underline;
+    }
+}
