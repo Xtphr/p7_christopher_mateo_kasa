@@ -7,7 +7,7 @@ export default function Meta({title, description}){
     if (title){
         element.innerText= `${title}`;
     } else{
-        element.innerText= "Page d'erreur"
+        element.innerText= "Erreur 404"
     }
 
     const desc = document.querySelector("meta[name='description']");
