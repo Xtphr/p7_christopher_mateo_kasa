@@ -1,0 +1,23 @@
+/***************************************************************
+ ****            Index des feuilles de style CSS            ****
+ **************************************************************/
+body{
+    margin: 0;
+    color: #FFF;
+    font-family: 'Montserrat';
+}
+
+/* Normalize */
+@import '../styles/normalize.css';
+
+/* Pages */
+@import '../styles/pages/Home.css';
+@import '../styles/pages/About.css';
+@import '../styles/pages/Page404.css';
+@import '../styles/pages/RentalAds.css';
+
+/* Composants */
+@import '../styles/components/Header.css';
+@import '../styles/components/Footer.css';
+@import '../styles/components/Banner.css';
+@import '../styles/components/Card.css';

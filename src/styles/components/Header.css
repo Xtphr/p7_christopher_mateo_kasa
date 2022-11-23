@@ -1,0 +1,55 @@
+
+
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+    padding-left: 80px;
+}
+
+li a{
+    font-size: 24px;
+    color: #FF6060;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.header__logo{
+    width: 210px;
+    height: 68px;
+}
+
+@media all and (max-width:768px){
+    .header__logo{
+        width: 145px;
+        height: 47px;
+    }
+
+    nav{
+        margin-top: 4%;
+    }
+
+    nav li{
+        padding: 0 10px;
+    }
+
+    li a{
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+}

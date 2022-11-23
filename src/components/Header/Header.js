@@ -8,22 +8,22 @@
 
  export default function Header(){
     return(
-        <div className="header">
+        <header>
             <nav>
                 <img className="header__logo" src={Logo} alt="Kasa Logo header"></img>
                 <ul>
                     <li>
-                        <Link to="/" className="items">
+                        <Link to="/" className="header__menu">
                             Accueil
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" className="items">
+                        <Link to="/about" className="header__menu">
                             À Propos
                         </Link>
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
  }

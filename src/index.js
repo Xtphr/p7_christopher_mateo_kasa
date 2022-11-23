@@ -13,6 +13,7 @@ import {
   BrowserRouter
 } from "react-router-dom";
 import Routing from './Router';
+import './styles/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

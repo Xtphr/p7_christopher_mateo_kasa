@@ -1,0 +1,50 @@
+
+
+.gallery{
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+
+.ad__item{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    max-height: 340px;
+    border-radius: 10px;
+    margin: 4%;
+}
+
+.ad__img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ad__title{
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px 15px 15px;
+    font-size: 18px;
+    text-align: left;
+    color: #FFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+@media all and(max-width:768px){
+    .gallery{
+        width: 100%;
+        margin: 10px;
+        background: none;
+    }
+}
