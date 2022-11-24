@@ -1,0 +1,38 @@
+
+section{
+    width: 100%;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dropdown__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FF6060;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.dropdown__arrow{
+
+}
+
+.dropdown__txt{
+    background-color: #F6F6F6;
+    color: #FF6060;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}

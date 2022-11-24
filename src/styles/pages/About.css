@@ -1,3 +1,21 @@
 /***************************************************************
  ****            Feuille de style page "À Propos"           ****
  **************************************************************/
+
+ .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 370px;
+    width: 80%;
+    margin: auto;
+    row-gap: 1rem;
+}
