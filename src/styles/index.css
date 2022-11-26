@@ -1,10 +1,10 @@
 /***************************************************************
  ****            Index des feuilles de style CSS            ****
  **************************************************************/
-body{
-    margin: 0;
-    color: #FFF;
-    font-family: 'Montserrat';
+
+
+*{
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 /* Normalize */
@@ -22,3 +22,5 @@ body{
 @import '../styles/components/Banner.css';
 @import '../styles/components/Card.css';
 @import '../styles/components/Collapse.css';
+@import '../styles/components/Slideshow.css';
+@import '../styles/components/Rating.css';

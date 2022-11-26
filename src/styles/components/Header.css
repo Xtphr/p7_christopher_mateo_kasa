@@ -1,10 +1,12 @@
-
+/***************************************************************
+ ****              Feuille de style : Header                ****
+ **************************************************************/
 
 nav{
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
     margin: 2% 5%;
 }
 
@@ -20,9 +22,10 @@ nav li{
 
 li a{
     font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
     color: #FF6060;
     cursor: pointer;
-    text-decoration: none;
 }
 
 li a:hover{
@@ -31,17 +34,18 @@ li a:hover{
 
 .header__logo{
     width: 210px;
-    height: 68px;
+    height: 70px;
 }
 
+/* Responsive Design */
 @media all and (max-width:768px){
     .header__logo{
-        width: 145px;
-        height: 47px;
+        width: 150px;
+        height: 50px;
     }
 
     nav{
-        margin-top: 4%;
+        margin: 4% 5%;
     }
 
     nav li{
@@ -49,7 +53,17 @@ li a:hover{
     }
 
     li a{
-        font-size: 13px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
         text-transform: uppercase;
+    }
+}
+
+@media all and (max-width:345px){
+    nav{
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 0;
     }
 }

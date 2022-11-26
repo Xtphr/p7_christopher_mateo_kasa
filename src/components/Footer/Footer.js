@@ -1,11 +1,11 @@
 /***************************************************************
- ****            Footer           ****
+ ****       Composant "Footer" pour toutes les pages        ****
  **************************************************************/
 
-import React from 'react';
-import Logo from '../../assets/logo-footer.png';
+import React from 'react'; //importation de react
+import Logo from '../../assets/logo-footer.png'; //importation du logo footer
 
-export default function Footer(){
+export default function Footer(){ //fonction principale pour l'affichage du footer
     return(
         <footer>
             <div className='footer__logo'>

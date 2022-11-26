@@ -1,21 +1,33 @@
 /***************************************************************
- ****            Feuille de style page "À Propos"           ****
+ ****           Feuille de style : page "À Propos"          ****
  **************************************************************/
 
- .about{
+.about{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 .about__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 370px;
     width: 80%;
     margin: auto;
     row-gap: 1rem;
+}
+
+.about__item{
+    width: 100%;
+}
+
+/* Responsive Design */
+@media all and (max-width:768px){
+    .about__container{
+        width: 90%;
+    }
 }

@@ -1,0 +1,59 @@
+/***************************************************************
+ ****           Feuille de style : Slideshow                ****
+ **************************************************************/
+
+.carrousel{
+    position: relative;
+    margin-top: 30px;
+    width: 92%;
+}
+
+.carrousel__img{
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.carrousel__img-nbr{
+    font-size: 18px;
+    top: 88%;
+    left: 49%;
+    position: absolute;
+    color: #fff;
+}
+
+.arrowLeft, .arrowRight{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    top: 40%;
+    width: 50px;
+    height: 80px;
+}
+
+.arrowLeft{
+    left: 20px;
+}
+
+.arrowRight{
+    right: 20px;
+}
+
+/* Responsive Design */
+@media all and (max-width:768px){
+    .carrousel{
+        width: 90%;
+    }
+
+    .carrousel__img{
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .arrowLeft, .arrowRight{
+        width: 12px;
+        height: 20px;
+        top: 45%;
+    }
+}

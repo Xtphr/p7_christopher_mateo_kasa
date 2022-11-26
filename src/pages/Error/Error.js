@@ -1,17 +1,12 @@
 /***************************************************************
- ****            Error            ****
+ ****             Fonction page d'Erreur (404)              ****
  **************************************************************/
 
-import React from 'react';
-import {Link} from 'react-router-dom';
-import ErrorImg from '../../assets/404.png';
+import React from 'react'; //importation de react
+import {Link} from 'react-router-dom'; //importation de link pour ahref
+import ErrorImg from '../../assets/404.png'; //importation code 404
 
-//import Meta from '../../components/Meta/Meta';
-//const metaTitle= "Erreur 404";
-//const metaDescription= "Cette page n'existe pas.";
-//<Meta title={metaTitle} description={metaDescription} />
-
-export default function Error(){
+export default function Error(){ //fonction principale pour l'affichage de l'Error
     return(
         <main className='error'>
             <div>

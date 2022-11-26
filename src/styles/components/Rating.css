@@ -1,0 +1,16 @@
+/***************************************************************
+ ****               Feuille de style : Rating               ****
+ **************************************************************/
+
+.fullStar, .emptyStar{
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Design */
+@media all and (max-width:768px){
+    .fullStar, .emptyStar{
+        width: 15px;
+        height: 15px;
+    }
+}

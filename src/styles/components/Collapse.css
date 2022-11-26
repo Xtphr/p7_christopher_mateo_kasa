@@ -1,13 +1,11 @@
-
-section{
-    width: 100%;
-}
+/***************************************************************
+ ****            Feuille de style : Collapse                ****
+ **************************************************************/
 
 .dropdown{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 18px;
     width: 100%;
 }
 
@@ -19,20 +17,53 @@ section{
     background-color: #FF6060;
     color: #fff;
     font-weight: 500;
+    font-size: 24px;
     cursor: pointer;
     width: 100%;
-    padding: 5px 10px;
+    /*padding: 5px 10px;*/
+    padding: 0;
+    height: 47px;
+}
+
+.dropdown__btn p, .dropdown__arrow{
+    padding: 20px 10px;
 }
 
 .dropdown__arrow{
-
+    width: 24px;
+    font-weight: 500;
+    height: 14px;
 }
 
 .dropdown__txt{
     background-color: #F6F6F6;
     color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
     border-radius: 5px;
     width: 100%;
-    padding: 5px 10px;
     margin-bottom: 15px;
+}
+
+.dropdown__txt div{
+    padding: 20px 10px;
+}
+
+/* Responsive Design */
+@media all and (max-width:768px){
+    .dropdown__btn{
+        height: 30px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .dropdown__arrow{
+        width: 15px;
+        height: 9px;
+    }
+
+    .dropdown__txt{
+        font-size: 12px;
+        font-weight: 400;
+    }
 }

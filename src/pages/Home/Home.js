@@ -2,18 +2,14 @@
  ****                Fonction page d'Accueil                ****
  **************************************************************/
 
-import React from 'react';
-import Banner from '../../components/Banner/Banner';
-import Card from '../../components/Card/Card';
-//import Meta from '../../components/Meta/Meta';
+import React from 'react'; //importation de react
+import Banner from '../../components/Banner/Banner'; //importation du composant banner
+import Card from '../../components/Card/Card'; //importation du composant card
 
-export default function Home(){
-    //const metaTitle = "Kasa, plus de 500 annonces d'appartements en location !";
-    //const metaDescription = "Kasa est une plateforme web spécialisée dans la location d'appartements entre particuliers depuis près de 10 ans.";
+export default function Home(){ //fonction principale pour l'affichage de la Home page
     return(
-        //<Meta title={metaTitle} description={metaDescription} />
         <main>
-            <Banner />
+            <Banner origin="home-page"/>
             <Card />
         </main>
     );

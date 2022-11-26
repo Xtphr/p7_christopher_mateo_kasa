@@ -1,3 +1,7 @@
+/***************************************************************
+ ****        Feuille de style : page d'Erreur (404)         ****
+ **************************************************************/
+
 .error{
     display: flex;
     flex-direction: column;
@@ -31,7 +35,8 @@
     text-decoration: underline;
 }
 
-@media all and(max-width:768px){
+/* Responsive Design */
+@media all and (max-width:768px){
     .error__img{
         width: 198px;
         height: 99px;

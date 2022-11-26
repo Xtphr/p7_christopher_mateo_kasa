@@ -1,8 +1,12 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import Ads from '../../datas/ads.json';
+/***************************************************************
+ ****           Composant "Card" pour Home page             ****
+ **************************************************************/
 
-export default function Card (){
+import React, {useState} from 'react'; //importation de react et du hook useState
+import {Link} from 'react-router-dom'; //importation du link pour ahref
+import Ads from '../../datas/ads.json'; //importation des datas
+
+export default function Card (){ //fonction principale pour l'affichage des cards
     const [currImg] = useState(0);
     return(
         <section className='gallery'>

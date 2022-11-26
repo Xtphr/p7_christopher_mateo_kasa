@@ -1,20 +1,16 @@
 /***************************************************************
- ****              Page "À propos"             ****
+ ****                Fonction page "À propos"               ****
  **************************************************************/
 
-import React from 'react';
-import Banner from '../../components/Banner/Banner';
-import Collapse from '../../components/Collapse/Collapse';
-//import Meta from '../../components/Meta/Meta';
-//const metaTitle= "Kasa- À Propos";
-//const metaDescription= "Découvrez les valeurs de Kasa, leader dans le marché de la location immobilière !"
-//<Meta title={metaTitle} description={metaDescription} />
+import React from 'react'; //importation de react
+import Banner from '../../components/Banner/Banner'; //importation du composant banner
+import Collapse from '../../components/Collapse/Collapse'; //importation du composant collapse
 
-export default function About(){
+export default function About(){ //fonction principale pour l'affichage de la page About
     return(
-        <main className='about'>
-            <Banner />
-            <section>
+        <main>
+            <Banner origin="about-page" />
+            <section className='about'>
                 <div className='about__container'>
                     <Collapse className='about__item' label='Fiabilité' content={`Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.`} />
                     <Collapse className='about__item' label='Respect' content={`La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.`} />
